@@ -1,0 +1,156 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navigation Bar Styling */
+nav {
+  background-color: #fff;
+  padding: 10px 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; /* Align items to the right */
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #807a7a;
+  font-weight: bold;
+  padding: 8px 16px;
+  transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  color: rgba(236, 83, 11, 0.94);
+}
+
+nav ul li .icon {
+  height: 40px;
+  width: 60px;
+
+}
+
+nav ul .logo {
+  margin-right: auto; /* Pushes the logo to the far left */
+}
+/* Components Link Styling */
+nav ul li a.components {
+  background-color: rgba(236, 83, 11, 0.94);
+  color: #fff;
+  border-radius: 20px;
+  padding: 8px 16px;
+}
+
+nav ul li a.components:hover {
+  background-color: darkorange;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  color: grey;
+}
+.content-div {
+  max-width: 600px;
+  text-align: center;
+  margin: 110px auto;
+}
+.content-div p {
+  margin-bottom: 10px;
+}
+.icon{
+  width: 50px;
+  height: 50px;
+
+}
+.box{
+  width: 200px;
+  height:150px;
+  background-color: #fff; /* Set background color */
+  margin: 10px;
+  border: 1px solid #ccc; /* Add light grey border */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow */
+  display: flex; /* Use flexbox */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  transition: background-color 0.3s ease; /* Add transition effect */
+}
+.box img {
+  display: block; /* Make the image a block element */
+  margin: 5px auto; /* Center the image horizontally */
+}
+.box:hover {
+  background-color: #fabb33; /* Change background color on hover */
+}
+
+figcaption{
+  margin-top: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.boxes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center ;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-left: 240px;
+  width: 650px; /* Set a max-width for better layout */
+  height: auto;
+
+}
+
+
+label {
+  margin-bottom: 5px;
+}
+
+input, textarea {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.submit-button {
+  background-color: rgba(236, 83, 11, 0.94);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  margin-bottom: 50px;
+  font-weight: bold;
+
+}
+
+.submit-button:hover {
+  background-color: darkorange;
+}
